@@ -48,6 +48,7 @@ for stock_a in tickers:
 # Step 8: Display the covariance matrix
 cov_matrix = cov_matrix.astype(float).round(6)  # Convert to float and round to 6 decimal places
 print(cov_matrix)
+print("\nCovariance matrix saved to custom_covariance_matrix.csv\n")
 
 # Step 9: Save the covariance matrix to a CSV file
 cov_matrix.to_csv('custom_covariance_matrix.csv')
