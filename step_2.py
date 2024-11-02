@@ -26,6 +26,6 @@ df_final.index += 1
 
 # Display the resulting DataFrame
 print(df_final)
-print("Stocks where Expected Returns > Variance saved to optimal_portfolio_candidates.csv")
+print("\nStocks where Expected Returns > Variance saved to optimal_portfolio_candidates.csv\n")
 # Save the filtered dataset to a new CSV file
 df_final.to_csv('optimal_portfolio_candidates.csv', index_label='index')
