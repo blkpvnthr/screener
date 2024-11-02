@@ -68,7 +68,7 @@ df_positive_returns = df_metrics[df_metrics['Expected Return'] > 0]
 
 # Display the metrics and positive expected return stocks
 print(df_positive_returns)
-print("Metrics saved to 'sp500_stock_metrics.csv'")
-# Save the results to CSV
+print("\nMetrics saved to sp500_stock_metrics.csv\n")
 
+# Save the results to CSV
 df_metrics.to_csv('sp500_stock_metrics.csv', index=False)
